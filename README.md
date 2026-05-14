@@ -97,7 +97,12 @@ cd "Login API"
 npm install
 ```
 
-**4. Start the server**
+**4. Install dependencies**
+```bash
+npm install express pg body-parser express-validator
+```
+
+**5. Start the server**
 ```bash
 node index.js
 ```
